@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prasad.androiddemo" >
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+             >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ListViewDemo.ListWithArrayAdapter"
+                   android:label="Android demo">
+
+                   </activity>
+
+        <activity android:name=".ListViewDemo.ListWithCustomArrayAdapter"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".ListViewDemo.ListWithCustomArrayAdapterViewHolder"
+            android:label="Android demo">
+
+        </activity>
+
+
+        <activity android:name=".DB.DBdemoActivity"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".DB.DBlistviewArrayAdapter"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".ListViewDemo.ListWithCustomCursorAdapter"
+            android:label="Android demo">
+
+        </activity>
+
+
+        <activity android:name=".Cards.CardDemo"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".Cards.CardsLibDemo"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".Cards.CardlibsListMaterial"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".Cards.CardsWithRecycleView"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".ActionBar.ActionBardemo"
+            android:label="Android demo">
+
+        </activity>
+
+
+        <activity android:name=".ActivityAndIntents.ActivityForResultDemo"
+            android:label="Android demo">
+
+        </activity>
+
+        <activity android:name=".ActivityAndIntents.SupportActivityResult"
+            android:label="Android demo">
+
+        </activity>
+
+    </application>
+
+</manifest>
